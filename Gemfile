@@ -30,10 +30,10 @@ group :doc do
   gem 'sdoc', '0.4.0', require: false
 end
 
-group :prodution do
-  gem 'pg', '0.15.1'
-  gem 'rails_12factor', '0.0.2'
-end
+#group :prodution do
+#  gem 'pg', '0.15.1'
+#  gem 'rails_12factor', '0.0.2'
+#end
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
 
